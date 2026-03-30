@@ -2,12 +2,12 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Kore Code - Home</title>
+    <title>Kore Forge - Home</title>
 </head>
 <body>
     <header>
-        <img src="logo.png" alt="Logo Kore Code">
-        <h1>Kore Code</h1>
+        <img src="logo.png" style="width: 120px;" alt="Logo Kore Code">
+        <h1>Kore Forge</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Início</a></li>
