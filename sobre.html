@@ -2,13 +2,20 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre o Autor - Kore Code</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <img src="logo.png" style="width: 120px" alt="Logo Kore Code">
         <h1>Kore Code</h1>
-        <nav>
+        
+        <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+        <label for="menu-toggle" class="menu-open" title="Abrir menu">&#9776;</label>
+        
+        <nav class="main-nav">
+            <label for="menu-toggle" class="menu-close" title="Fechar menu">&#10006;</label>
             <ul>
                 <li><a href="index.html">Início</a></li>
                 <li><a href="sobre.html">Sobre o Autor</a></li>
@@ -19,7 +26,9 @@
     <main>
         <section>
             <h2>Otavio Figueredo Alves</h2>
-            <p>Programador Junior Full stack e estudante de Ciência da Computação no IFCE Tianguá. Fundador da Kore Forge e dev php.</p>
+            <article>
+                <p>Programador Junior Full stack e estudante de Ciência da Computação no IFCE Tianguá. Fundador da Kore Forge e dev php.</p>
+            </article>
         </section>
     </main>
 

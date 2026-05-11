@@ -2,13 +2,20 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kore Forge - Home</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <img src="logo.png" style="width: 120px;" alt="Logo Kore Code">
         <h1>Kore Forge</h1>
-        <nav>
+        
+        <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+        <label for="menu-toggle" class="menu-open" title="Abrir menu">&#9776;</label>
+        
+        <nav class="main-nav">
+            <label for="menu-toggle" class="menu-close" title="Fechar menu">&#10006;</label>
             <ul>
                 <li><a href="index.html">Início</a></li>
                 <li><a href="sobre.html">Sobre o Autor</a></li>
@@ -22,12 +29,14 @@
             <article>
                 <h3>Sistemas de Automação</h3>
                 <img src="automacao.jpg" alt="Exemplo de automação">
+                <br>
                 <a href="detalhes.html">Ver detalhes</a>
             </article>
 
             <article>
                 <h3>Desenvolvimento Web</h3>
                 <img src="web.jpg" alt="Exemplo de site">
+                <br>
                 <a href="detalhes.html">Ver detalhes</a>
             </article>
         </section>
