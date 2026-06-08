@@ -133,4 +133,28 @@ a{
         display:none;
     }
 
+    .menu-open:hover ~ .main-nav,
+    .main-nav:hover {
+        display: block;
+    }
+
+}
+
+@media print {
+    .menu-open, 
+    .menu-close, 
+    .menu-checkbox, 
+    .main-nav {
+        display: none !important;
+    }
+    
+    body {
+        background-color: var(--cor-branco);
+        color: black;
+    }
+
+    header, main, footer, article {
+        border-color: #000;
+        box-shadow: none;
+    }
 }
